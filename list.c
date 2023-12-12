@@ -52,7 +52,7 @@ int list_length(list_t *l) {
     i++;
     current = current->next;
   }
-  
+   
   return i; 
 }
 

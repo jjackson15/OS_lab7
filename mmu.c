@@ -155,7 +155,7 @@ void deallocate_memory(list_t * alloclist, list_t * freelist, int pid, int polic
 	block_t *selected_block = NULL;
 	node_t *prev;
 
-	while (current != NULL) {
+	while (current != NULL) { 
 		block_t *current_block = current->blk;
 		if (current_block->pid == pid) {
 			selected_block = current_block;
